@@ -1,0 +1,173 @@
+body {
+  box-sizing: border-box;
+}
+/* <!-- uper heder start --> */
+.header {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.social {
+  margin-left: auto;
+}
+/* <!-- uper header end --> */
+.navbar-brand {
+  font-family: "Permanent Marker", cursive;
+}
+nav ul {
+  margin-left: auto;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#slider img {
+  width: 100% !important;
+  display: block !important;
+  height: 500px;
+}
+/* slider */
+.carousel-caption{
+  margin-bottom: 5%;
+}
+.carousel-caption h3 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+.carousel-caption h1 {
+  /* font-family: 'Permanent Marker', cursive; */
+  font-weight: bold;
+}
+/* sec-1 */
+.sec-1 {
+  margin-top: 2% !important;
+}
+.welcome-company h3 {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.welcome-company h4 {
+  margin-bottom: 3%;
+}
+.welcome-company a {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.sec-img1 {
+  border-radius: 5%;
+}
+/* sec2 */
+.sec-2 h1,
+.sec-2 p,
+.sec-2 h3 {
+  text-align: center;
+  padding-top: 2%;
+}
+.sec-2 .icon1 {
+  border: solid 5px rgba(255, 217, 0, 0.966);
+  outline: solid 5px rgba(255, 217, 0, 0.712);
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 20%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-2 i {
+  display: block;
+  font-size: 250%;
+}
+.sec-3 {
+  padding-top: 6%;
+}
+.sec-3 h1 {
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.card-footer a {
+  margin-left: auto;
+  display: block;
+  width: 50%;
+}
+.card {
+  margin-bottom: 6%;
+}
+.card-header {
+  font-weight: bold;
+}
+.sec-4 {
+  padding-top: 1%;
+}
+.submit {
+  margin-left: auto;
+  display: block;
+}
+/* footer */
+.footer {
+  /* background: url(../images/6.png), black; */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(15, 15, 19, 0.87),
+      rgba(0, 0, 0, 0.842)
+    ),
+    url(../images/6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: black; */
+}
+.footer-sec {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.footer-social i {
+  font-size: 200%;
+  margin-left: 5%;
+  display: inline-block;
+}
+.footer h3 {
+  margin-bottom: 10%;
+  /* text-align: center; */
+}
+.footer li {
+  color: aliceblue;
+  padding-bottom: 3%;
+  text-align: left;
+}
+.footer li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.footer .post li {
+  list-style: none;
+  margin-bottom: 7%;
+}
+.footer .post li i {
+  margin-right: 8%;
+  display: inline-block;
+}
+.footer .contact li {
+  list-style: none;
+}
+.footer .contact li i {
+  margin-right: 8%;
+}
+/* .footer .post h3,.footer .contact h3{
+  padding-left: 10%;
+} */
+.footer ul {
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+}
+.footer .explore ul {
+  margin-left: 7% !important;
+}
+.footer .about-company,
+.footer .explore,
+.footer .post,
+.footer .contact {
+  padding-left: 5%;
+}
+.last-footer {
+  text-align: center;
+  padding: 1%;
+  background-color: rgba(3, 5, 24, 0.849);
+}
